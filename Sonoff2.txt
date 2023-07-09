@@ -1,0 +1,17 @@
+UID: mqtt:topic:MQTTBroker:Sonoff_2
+label: Sonoff_2
+thingTypeUID: mqtt:topic
+configuration:
+  payloadNotAvailable: Offline
+  availabilityTopic: tele/Sonoff_2/LWT
+  payloadAvailable: Online
+bridgeUID: mqtt:broker:MQTTBroker
+location: lounge_loc
+channels:
+  - id: Sonoff_2_Power
+    channelTypeUID: mqtt:switch
+    label: Sonoff 2 Power
+    description: ""
+    configuration:
+      commandTopic: cmnd/Sonoff_2/POWER
+      stateTopic: stat/Sonoff_2/POWER
