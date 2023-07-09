@@ -1,0 +1,21 @@
+UID: zigbee:coordinator_ember:f33c78ead2
+label: Ember EM35x Coordinator
+thingTypeUID: zigbee:coordinator_ember
+configuration:
+  zigbee_port: /dev/ttyUSB1
+  zigbee_channel: 11
+  zigbee_initialise: false
+  zigbee_concentrator: 0
+  zigbee_trustcentremode: TC_JOIN_SECURE
+  zigbee_extendedpanid: 5E52916DEAC2C27B
+  zigbee_baud: 57600
+  zigbee_flowcontrol: 1
+  zigbee_panid: 6027
+  zigbee_powermode: 1
+  zigbee_txpower: 0
+  zigbee_networksize: 25
+  zigbee_linkkey: 5A6967426565416C6C69616E63653039
+  zigbee_childtimeout: 86400
+  zigbee_networkkey: 7E3781145659192F57A5DE17895AE994
+  zigbee_meshupdateperiod: 86400
+
