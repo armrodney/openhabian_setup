@@ -1,0 +1,7 @@
+UID: roku:roku_player:yh000t750050
+label: Roku Streaming Stick+
+thingTypeUID: roku:roku_player
+configuration:
+  hostName: 192.168.1.15
+  port: 8060
+  refresh: 10
